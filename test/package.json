@@ -1,0 +1,23 @@
+{
+  "name": "simple-rest-api",
+  "version": "1.0.0",
+  "description": "CyberRange internship project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+	"start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "localhost:8080/locations/:zipcode/:scale?"
+  },
+  "keywords": [],
+  "author": "Samit Kumar Ganguli",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^6.0.2",
+    "request": "^2.88.0"
+  }
+}
