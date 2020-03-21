@@ -6,7 +6,7 @@ var Request = require("request");
  app.listen(port, function () {
      console.log("Running RestHub on port " + port);
 });
-
+//ma ki choot
 	app.get('/locations/:zipcode', (req, res) => {
 	const zip_code = req.params.zipcode;
 	let query_scale = req.query.scale === undefined || req.query.scale === 'Fahrenheit' ? 'Fahrenheit' : 'Celsius'

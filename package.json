@@ -4,9 +4,9 @@
   "description": "CyberRange Coding Challenge",
   "main": "index.js",
   "scripts": {
-		"test": "C:/Users/place/OneDrive/Desktop/WhetherApp/Whaether-App/test/test.js",
-		"start": "node index.js"
-	},
+    "test": "C:/Users/place/OneDrive/Desktop/WhetherApp/Whaether-App/test/test.js",
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "localhost:8080/locations/:zipcode/:scale?"
